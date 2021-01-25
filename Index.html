@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lingo</title>
+  <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+<div id='msgBox'>Lingo</div>
+<div id="smallMsg">Rood = correct, Geel = verkeerde plek</div>
+<div id="container">
+  <img id="img" src="lingo.png">
+  <div id="row1">
+    <div class="square default"></div>
+    <div class="square default"></div>
+    <div class="square default"></div>
+    <div class="square default"></div>
+    <div class="square default"></div>
+  </div>
+  <div id="row2">
+    <div class="square default"></div>
+    <div class="square default"></div>
+    <div class="square default"></div>
+    <div class="square default"></div>
+    <div class="square default"></div>
+  </div>
+  <div id="row3">
+    <div class="square default"></div>
+    <div class="square default"></div>
+    <div class="square default"></div>
+    <div class="square default"></div>
+    <div class="square default"></div>
+  </div>
+  <div id="row4">
+    <div class="square default"></div>
+    <div class="square default"></div>
+    <div class="square default"></div>
+    <div class="square default"></div>
+    <div class="square default"></div>
+  </div>
+  <div id="row5">
+    <div class="square default"></div>
+    <div class="square default"></div>
+    <div class="square default"></div>
+    <div class="square default"></div>
+    <div class="square default"></div>
+  </div>
+</div>
+<input id="guess" onkeypress="submitguess(this)" placeholder='Raad het woord!'>
+<button id="button" class="invisible" onClick="playagain()">Nog een keer spelen?</button>
+<script src="script.js"></script>
+</body>
+</html>
